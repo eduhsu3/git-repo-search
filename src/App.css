@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+p,div,html,body,ul,li{margin: 0; padding: 0;}
+ul,li{ list-style: none;}
+
+
+#root {
+  max-width: 1200px;
+  width: 96%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #000;
+
+}
+#root h1{ margin: 0 0 30px; font-size: 36px; letter-spacing: -0.05em;}
+.top_search{margin-bottom: 50px; display: flex; align-items: center; justify-content: center;}
+.top_search .sch_ipt{ padding:0  10px; height: 42px; font-size: 24px; border-radius: 6px; border: 1px solid #ddd; text-align: center; }
+
+.top_search .sch_btn{ margin-left: 5px; background-color: #333239; color: #fff;}
+
+.list_wrap{ max-width: 550px; margin: 0 auto;}
+.list_wrap .ti{ text-align: left;}
+.list_wrap ul{ }
+.list_wrap ul li{display: flex; transition: 0.3s; align-items: center; padding: 5px; border: 2px solid #ddd; cursor: pointer;}
+.list_wrap ul li p{ flex: 0 0 auto ; width: 100px;}
+.list_wrap ul li h3{ margin: 5px 0; word-break: break-all;}
+.list_wrap ul li:hover{ background-color: #334371; border-color: #334371;}
+.list_wrap ul li:hover *{ color: #fff;}
+.list_wrap ul li+li{ margin-top: 5px;}
+
+.avatar{border-radius: 50%; width: 120px; height: 120px;}
+
